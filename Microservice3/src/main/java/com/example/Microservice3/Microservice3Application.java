@@ -11,7 +11,7 @@ public class Microservice3Application {
 	
 	@Autowired
 	private LoadBalancerClient loadBalancer;
-	@GetMapping(…)
+	@GetMapping(ï¿½)
 	public void method() {
 	ServiceInstance serviceInstance = loadBalancer.choose("WebService1");
 	System.out.println(serviceInstance.getUri());
