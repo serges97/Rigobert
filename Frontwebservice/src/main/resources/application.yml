@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: Frontwebservice
+  eureka:
+    client:
+      serviceUrl:
+        defaultZone: http://localhost:8761/eureka/
+  healthcheck:
+    senabled: true
+server:
+  port: 8183
